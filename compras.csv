@@ -1,0 +1,210 @@
+Categoria,Item,Quantidade,Unidade,Comprado
+Hortifruti,Abacate,1,un,False
+Hortifruti,Abacaxi,1,un,False
+Hortifruti,Abóbora,1,kg,False
+Hortifruti,Abobrinha,1,kg,False
+Hortifruti,Acelga,1,un,False
+Hortifruti,Agrião,1,maço,False
+Hortifruti,Alface,1,un,False
+Hortifruti,Alho,1,kg,False
+Hortifruti,Banana Prata,1,kg,False
+Hortifruti,Banana Nanica,1,kg,False
+Hortifruti,Batata Doce,1,kg,False
+Hortifruti,Berinjela,1,kg,False
+Hortifruti,Beterraba,1,kg,False
+Hortifruti,Brócolis,1,un,False
+Hortifruti,Cebola,1,kg,False
+Hortifruti,Cenoura,1,kg,False
+Hortifruti,Chuchu,1,kg,False
+Hortifruti,Couve,1,maço,False
+Hortifruti,Espinafre,1,maço,False
+Hortifruti,Gengibre,1,kg,False
+Hortifruti,Inhame,1,kg,False
+Hortifruti,Laranja,1,kg,False
+Hortifruti,Limão,1,kg,False
+Hortifruti,Maçã,1,kg,False
+Hortifruti,Mamão,1,un,False
+Hortifruti,Manga,1,kg,False
+Hortifruti,Melancia,1,kg,False
+Hortifruti,Morango,1,cx,False
+Hortifruti,Pepino,1,kg,False
+Hortifruti,Pêra,1,kg,False
+Hortifruti,Pimentão,1,kg,False
+Hortifruti,Repolho,1,un,False
+Hortifruti,Rúcula,1,maço,False
+Hortifruti,Tomate,1,kg,False
+Hortifruti,Uva,1,kg,False
+Hortifruti,Kiwi,1,kg,False
+Hortifruti,Goiaba,1,kg,False
+Hortifruti,Jabuticaba,1,kg,False
+Hortifruti,Ameixa,1,kg,False
+Hortifruti,Rabanete,1,maço,False
+Hortifruti,Nabo,1,kg,False
+Hortifruti,Vagem,1,kg,False
+Hortifruti,Quiabo,1,kg,False
+Hortifruti,Couve-Flor,1,un,False
+Hortifruti,Alface Roxa,1,un,False
+Hortifruti,Alface Americana,1,un,False
+Hortifruti,Batata Inglesa,1,kg,False
+Hortifruti,Aipim,1,kg,False
+Hortifruti,Jiló,1,kg,False
+Hortifruti,Maxixe,1,kg,False
+Carnes,Alcatra,1,kg,False
+Carnes,Bacon,1,kg,False
+Carnes,Carne Moída,1,kg,False
+Carnes,Costela Bovina,1,kg,False
+Carnes,Coxa de Frango,1,kg,False
+Carnes,Filé de Frango,1,kg,False
+Carnes,Filé Mignon,1,kg,False
+Carnes,Linguiça,1,kg,False
+Carnes,Lombo Suíno,1,kg,False
+Carnes,Patinho,1,kg,False
+Carnes,Peito de Frango,1,kg,False
+Carnes,Picanha,1,kg,False
+Carnes,Presunto,1,kg,False
+Carnes,Salsicha,1,kg,False
+Carnes,Sardinha,1,kg,False
+Carnes,Contra Filé,1,kg,False
+Carnes,Cupim,1,kg,False
+Carnes,Lagarto,1,kg,False
+Carnes,Maminha,1,kg,False
+Carnes,Músculo,1,kg,False
+Carnes,Acém,1,kg,False
+Carnes,Costela Suína,1,kg,False
+Carnes,Pernil,1,kg,False
+Carnes,Mortadela,1,kg,False
+Carnes,Salame,1,kg,False
+Carnes,Peito de Peru,1,kg,False
+Carnes,Asa de Frango,1,kg,False
+Laticínios,Iogurte Natural,1,un,False
+Laticínios,Leite Integral,1,L,False
+Laticínios,Leite Desnatado,1,L,False
+Laticínios,Manteiga,1,kg,False
+Laticínios,Margarina,1,kg,False
+Laticínios,Mussarela,1,kg,False
+Laticínios,Queijo Minas,1,kg,False
+Laticínios,Queijo Prato,1,kg,False
+Laticínios,Requeijão,1,un,False
+Laticínios,Cream Cheese,1,un,False
+Laticínios,Leite Condensado,1,un,False
+Laticínios,Creme de Leite,1,un,False
+Laticínios,Leite em Pó,1,kg,False
+Laticínios,Iogurte Grego,1,un,False
+Laticínios,Leite Semi-Desnatado,1,L,False
+Laticínios,Queijo Provolone,1,kg,False
+Laticínios,Queijo Gorgonzola,1,kg,False
+Laticínios,Ricota,1,kg,False
+Laticínios,Cottage,1,un,False
+Laticínios,Nata,1,un,False
+Laticínios,Leite Fermentado,1,un,False
+Laticínios,Bebida Láctea,1,L,False
+Laticínios,Queijo Ralado,1,kg,False
+Mercearia,Arroz,1,kg,False
+Mercearia,Feijão Preto,1,kg,False
+Mercearia,Feijão Carioca,1,kg,False
+Mercearia,Macarrão,1,kg,False
+Mercearia,Farinha de Trigo,1,kg,False
+Mercearia,Açúcar,1,kg,False
+Mercearia,Café,1,kg,False
+Mercearia,Sal,1,kg,False
+Mercearia,Óleo de Soja,1,un,False
+Mercearia,Azeite,1,un,False
+Mercearia,Vinagre,1,un,False
+Mercearia,Molho de Tomate,1,un,False
+Mercearia,Extrato de Tomate,1,un,False
+Mercearia,Milho em Conserva,1,un,False
+Mercearia,Ervilha em Conserva,1,un,False
+Mercearia,Atum,1,un,False
+Mercearia,Sardinha em Lata,1,un,False
+Mercearia,Temperos Diversos,1,un,False
+Mercearia,Maionese,1,un,False
+Mercearia,Mostarda,1,un,False
+Mercearia,Ketchup,1,un,False
+Mercearia,Granola,1,kg,False
+Mercearia,Aveia,1,kg,False
+Mercearia,Farinha de Mandioca,1,kg,False
+Mercearia,Farinha de Milho,1,kg,False
+Mercearia,Amendoim,1,kg,False
+Mercearia,Castanha de Caju,1,kg,False
+Mercearia,Mel,1,un,False
+Mercearia,Geléia,1,un,False
+Mercearia,Achocolatado,1,kg,False
+Mercearia,Cereais,1,un,False
+Padaria,Pão Francês,1,kg,False
+Padaria,Pão de Forma,1,un,False
+Padaria,Pão Integral,1,un,False
+Padaria,Bolo,1,un,False
+Padaria,Biscoito Água e Sal,1,un,False
+Padaria,Biscoito Recheado,1,un,False
+Padaria,Torrada,1,un,False
+Padaria,Pão de Queijo,1,kg,False
+Padaria,Croissant,1,un,False
+Padaria,Pão Australiano,1,un,False
+Padaria,Pão Sírio,1,un,False
+Padaria,Sonho,1,un,False
+Padaria,Rosca Doce,1,un,False
+Padaria,Brioche,1,un,False
+Padaria,Baguete,1,un,False
+Padaria,Pão de Hambúrguer,1,pc,False
+Padaria,Pão de Hot Dog,1,pc,False
+Padaria,Bolo de Chocolate,1,un,False
+Bebidas,Água Mineral,1,un,False
+Bebidas,Refrigerante Cola,1,L,False
+Bebidas,Refrigerante Guaraná,1,L,False
+Bebidas,Suco de Laranja,1,L,False
+Bebidas,Suco de Uva,1,L,False
+Bebidas,Cerveja,1,un,False
+Bebidas,Vinho Tinto,1,un,False
+Bebidas,Água de Coco,1,L,False
+Bebidas,Chá Mate,1,L,False
+Bebidas,Energético,1,un,False
+Bebidas,Tônica,1,L,False
+Bebidas,Suco de Maracujá,1,L,False
+Bebidas,Suco de Pêssego,1,L,False
+Bebidas,Vinho Branco,1,un,False
+Bebidas,Vodka,1,un,False
+Bebidas,Whisky,1,un,False
+Bebidas,Champagne,1,un,False
+Bebidas,Suco de Caju,1,L,False
+Limpeza,Água Sanitária,1,L,False
+Limpeza,Detergente,1,un,False
+Limpeza,Sabão em Pó,1,kg,False
+Limpeza,Amaciante,1,L,False
+Limpeza,Desinfetante,1,L,False
+Limpeza,Papel Higiênico,1,pc,False
+Limpeza,Papel Toalha,1,pc,False
+Limpeza,Saco de Lixo,1,pc,False
+Limpeza,Esponja,1,un,False
+Limpeza,Lustra Móveis,1,un,False
+Limpeza,Limpa Vidros,1,un,False
+Limpeza,Sabão em Barra,1,un,False
+Limpeza,Alvejante,1,L,False
+Limpeza,Multiuso,1,un,False
+Limpeza,Cera Líquida,1,L,False
+Limpeza,Sabão de Coco,1,un,False
+Limpeza,Limpa Alumínio,1,un,False
+Limpeza,Amaciante Concentrado,1,L,False
+Limpeza,Desengordurante,1,un,False
+Limpeza,Inseticida,1,un,False
+Limpeza,Luva de Borracha,1,par,False
+Higiene,Sabonete,1,un,False
+Higiene,Shampoo,1,un,False
+Higiene,Condicionador,1,un,False
+Higiene,Creme Dental,1,un,False
+Higiene,Escova de Dentes,1,un,False
+Higiene,Fio Dental,1,un,False
+Higiene,Desodorante,1,un,False
+Higiene,Absorvente,1,pc,False
+Higiene,Lenço de Papel,1,pc,False
+Higiene,Algodão,1,pc,False
+Higiene,Cotonete,1,pc,False
+Higiene,Álcool em Gel,1,un,False
+Higiene,Creme de Barbear,1,un,False
+Higiene,Aparelho de Barbear,1,un,False
+Higiene,Protetor Solar,1,un,False
+Higiene,Hidratante,1,un,False
+Higiene,Xampu Anti-Caspa,1,un,False
+Higiene,Condicionador Anti-Frizz,1,un,False
+Higiene,Escova de Cabelo,1,un,False
+Higiene,Pente,1,un,False
+Higiene,Sabonete Líquido,1,un,False
