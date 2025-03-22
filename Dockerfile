@@ -1,4 +1,4 @@
-FROM python:3.9-slim-buster
+FROM python:3.9
 
 WORKDIR /app
 
@@ -6,12 +6,19 @@ WORKDIR /app
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
     gcc \
-    libc6-dev \
+    g++ \
+    gfortran \
+    musl-dev \
+    libffi-dev \
+    python3-dev \
     && rm -rf /var/lib/apt/lists/*
 
-# Install dependencies
+# Install dependencies in specific order
 COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --upgrade pip && \
+    pip install --no-cache-dir wheel setuptools && \
+    pip install --no-cache-dir numpy==1.19.5 && \
+    pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
