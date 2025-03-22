@@ -1,18 +1,15 @@
-FROM python:3.9
-
-# Instalar dependências do sistema
-RUN apt-get update && apt-get install -y \
-    build-essential \
-    python3-dev \
-    gcc \
-    g++ \
-    && rm -rf /var/lib/apt/lists/*
+FROM python:3.9-slim
 
 WORKDIR /app
 
-# Instalar numpy primeiro
+# Install system dependencies
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends \
+    gcc \
+    && rm -rf /var/lib/apt/lists/*
+
+# Install dependencies
 COPY requirements.txt .
-RUN pip install --no-cache-dir numpy==1.24.3
 RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
