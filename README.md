@@ -35,3 +35,7 @@ cd lista_compras
 pip install -r requirements.txt
 python app.py
 ```
+## Autor
+Eduardo Cruz
+## Licença
+Este projeto está licenciado sob a Licença MIT.
