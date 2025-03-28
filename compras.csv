@@ -206,11 +206,14 @@ Higiene,Creme de Barbear,1,un,False
 Higiene,Aparelho de Barbear,1,un,False
 Higiene,Protetor Solar,1,un,False
 Higiene,Hidratante,1,un,False
+
+// Remove these duplicate entries from the Higiene section
+Higiene,Pente,1,un,False
 Higiene,Xampu Anti-Caspa,1,un,False
 Higiene,Condicionador Anti-Frizz,1,un,False
 Higiene,Escova de Cabelo,1,un,False
-Higiene,Pente,1,un,False
 Higiene,Sabonete Líquido,1,un,False
+// Keep only one instance of each item
 Mercearia,Farofa Pronta,1,kg,False
 Mercearia,Caldo de Galinha,1,cx,False
 Mercearia,Caldo de Carne,1,cx,False
@@ -221,43 +224,31 @@ Mercearia,Colorau,1,un,False
 Mercearia,Cominho,1,un,False
 Mercearia,Creme de Milho,1,kg,False
 Mercearia,Tapioca,1,kg,False
-
 Laticínios,Iogurte de Morango,1,L,False
 Laticínios,Iogurte de Ameixa,1,L,False
 Laticínios,Queijo Coalho,1,kg,False
 Laticínios,Leite de Coco,1,un,False
-
 Carnes,Frango Inteiro,1,kg,False
 Carnes,Carne Seca,1,kg,False
 Carnes,Calabresa,1,kg,False
 Carnes,Fígado,1,kg,False
-
 Hortifruti,Mandioquinha,1,kg,False
 Hortifruti,Coentro,1,maço,False
 Hortifruti,Salsa,1,maço,False
 Hortifruti,Cebolinha,1,maço,False
-
 Bebidas,Suco em Pó,1,un,False
 Bebidas,Café Solúvel,1,un,False
 Bebidas,Leite de Soja,1,L,False
 Bebidas,Achocolatado Pronto,1,L,False
-
 Padaria,Pão de Milho,1,un,False
 Padaria,Bisnaguinha,1,pc,False
 Padaria,Bolo de Fubá,1,un,False
 Padaria,Pão de Leite,1,pc,False
-
 Limpeza,Pedra Sanitária,1,un,False
 Limpeza,Anil,1,un,False
 Limpeza,Palha de Aço,1,pc,False
 Limpeza,Removedor,1,L,False
-
 Higiene,Talco,1,un,False
 Higiene,Antitranspirante,1,un,False
 Higiene,Enxaguante Bucal,1,un,False
 Higiene,Lixa de Unha,1,un,False
-Higiene,Xampu Anti-Caspa,1,un,False
-Higiene,Condicionador Anti-Frizz,1,un,False
-Higiene,Escova de Cabelo,1,un,False
-Higiene,Pente,1,un,False
-Higiene,Sabonete Líquido,1,un,False
