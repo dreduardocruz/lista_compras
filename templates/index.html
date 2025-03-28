@@ -1,4 +1,3 @@
-templates/index.html
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -57,7 +56,7 @@ templates/index.html
                 const index = cb.dataset.index;
                 const quantidade = document.querySelector(`#qtd-${index}`).value;
                 itensSelecionados.push({
-                    index: index,
+                    index: parseInt(index),
                     quantidade: quantidade
                 });
             });
@@ -74,16 +73,23 @@ templates/index.html
                 },
                 body: JSON.stringify(itensSelecionados)
             })
-            .then(response => response.json())
-            .then(data => {
-                if (data.error) {
-                    alert(data.error);
-                } else {
-                    window.location.href = `/download-pdf/${data.path}`;
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
                 }
+                return response.blob();
+            })
+            .then(blob => {
+                const url = window.URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = 'lista_compras.pdf';
+                document.body.appendChild(a);
+                a.click();
+                window.URL.revokeObjectURL(url);
             })
             .catch(error => {
-                console.error('Erro:', error);
+                console.error('Error:', error);
                 alert('Erro ao gerar lista');
             });
         }
