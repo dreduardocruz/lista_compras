@@ -7,8 +7,11 @@ Hortifruti,Acelga,1,un,False
 Hortifruti,Agrião,1,maço,False
 Hortifruti,Alface,1,un,False
 Hortifruti,Alho,1,kg,False
+Hortifruti,Alho Poró,1,un,False
 Hortifruti,Banana Prata,1,kg,False
 Hortifruti,Banana Nanica,1,kg,False
+Hortifruti,Banana Maçã,1,kg,False
+Hortifruti,Banana da Terra,1,kg,False
 Hortifruti,Batata Doce,1,kg,False
 Hortifruti,Berinjela,1,kg,False
 Hortifruti,Beterraba,1,kg,False
@@ -207,13 +210,11 @@ Higiene,Aparelho de Barbear,1,un,False
 Higiene,Protetor Solar,1,un,False
 Higiene,Hidratante,1,un,False
 
-// Remove these duplicate entries from the Higiene section
 Higiene,Pente,1,un,False
 Higiene,Xampu Anti-Caspa,1,un,False
 Higiene,Condicionador Anti-Frizz,1,un,False
 Higiene,Escova de Cabelo,1,un,False
 Higiene,Sabonete Líquido,1,un,False
-// Keep only one instance of each item
 Mercearia,Farofa Pronta,1,kg,False
 Mercearia,Caldo de Galinha,1,cx,False
 Mercearia,Caldo de Carne,1,cx,False

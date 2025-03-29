@@ -33,7 +33,22 @@ def gerar_lista():
 
         items = load_items()
 
-        pdf = FPDF()
+        class PDF(FPDF):
+            def __init__(self):
+                super().__init__()
+                # Define colors for each category
+                self.category_colors = {
+                    'Hortifruti': (230, 255, 230),  # Light green
+                    'Carnes': (255, 230, 230),      # Light red
+                    'Laticínios': (255, 255, 230),  # Light yellow
+                    'Mercearia': (255, 240, 220),   # Light orange
+                    'Padaria': (255, 235, 205),     # Light brown
+                    'Bebidas': (230, 230, 255),     # Light blue
+                    'Limpeza': (240, 255, 255),     # Light cyan
+                    'Higiene': (255, 230, 255)      # Light purple
+                }
+
+        pdf = PDF()
         pdf.add_page()
         pdf.set_font('Arial', 'B', 16)
         pdf.cell(0, 10, 'Lista de Compras', 0, 1, 'C')
@@ -48,7 +63,9 @@ def gerar_lista():
                 current_category = item_info['Categoria']
                 pdf.set_font('Arial', 'B', 14)
                 pdf.ln(5)
-                pdf.cell(0, 10, current_category, 0, 1)
+                # Set background color for category
+                pdf.set_fill_color(*pdf.category_colors.get(current_category, (255, 255, 255)))
+                pdf.cell(0, 10, current_category, 0, 1, 'L', True)
                 pdf.set_font('Arial', '', 12)
             
             pdf.cell(0, 10, f"- {item_info['Item']}: {quantidade} {item_info['Unidade']}", 0, 1)
